@@ -4,7 +4,7 @@ var fs = require("fs"),
 exports.run = (bot, message, args) => {
   var yournumber = args[1];
   if (yournumber === "") {
-		message.reply("Damn son, you forgot the number! `>dial <Number>`");
+		message.reply("Damn son, you forgot the vital number! `>dial <Number>`");
 		return;
 	}
 	if (yournumber === "*ROM") {
