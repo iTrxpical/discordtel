@@ -42,7 +42,7 @@ var recentCall={};
 
 function callNumber(yournumber,message,call,mynumber){
 	if (yournumber === "") {
-		message.reply("Damn son, you forgot the number! `>dial <Number>`");
+		message.reply("Damn son, you forgot the vital number! `>dial <Number>`");
 		return;
 	}
 	if(yournumber==="*ROM"){
